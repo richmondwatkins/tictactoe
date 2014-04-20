@@ -1,18 +1,68 @@
-#board{
-  border: 2px solid black;
+
+body{
+  background-color: #60a20a;
 }
+
+#board{
+
+  border-radius: 5px;
+
+}
+
+table{
+  margin: 0 auto;
+  border: 2px solid #aeff0c;
+}
+
+
+
+#header {
+  margin: 0 auto;
+  text-align: center;
+  color: #d2ff05
+}
+#reset{
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #f7ff02;
+  background-color: #5507ff
+
+}
+
+
 
 td{
   width: 100px;
   height: 100px;
   border: 2px solid black;
   text-align: center;
+  border: 2px solid #aeff0c;
+}
+
+td:hover {
+  background-color: #e9f109
 }
 
 .x {
-  font-size: 50px;
+  background-image: url('../media/facebook_old.png');
+  background-image: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
 }
 
 .o {
-  font-size: 50px;
+  background-image: url('../media/twitter.png.jpg');
+  background-image: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+
+.selected {
+  border: 2px solid yellow;
 }
