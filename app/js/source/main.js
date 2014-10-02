@@ -12,9 +12,9 @@
 
   function reset(){
     var newGame = $('tbody > tr > td');
-    $($(newGame)).removeClass('x');
-    $($(newGame)).removeClass('o');
-    $($(newGame)).addClass('table');
+    $(newGame).removeClass('x');
+    $(newGame).removeClass('o');
+    $(newGame).addClass('table');
   }
 
   function select(){
